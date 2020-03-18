@@ -1,5 +1,7 @@
 package com.web3n.community.entity;
 
+import lombok.Data;
+
 import java.util.Date;
 
 /**
@@ -7,7 +9,8 @@ import java.util.Date;
  * @create 2020-03-18 18:37
  * @description:
  */
-public class User {
+@Data
+class User {
     private Integer id;
     private String userName;
     private String password;
